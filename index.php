@@ -1,11 +1,7 @@
-<?php
-$i   = 0;
-$num = 50;
-
-while ($i < 10) {
-	$num--;
-	$i++;
-	echo ("Loop stopped at i = $i and num = $num</br>");
+	<?php
+$array = array(1, 2, 3, 4, 5);
+$a     = "a";
+foreach ($array as $value) {
+	echo "Value is $value <br />";
 }
-
 ?>
