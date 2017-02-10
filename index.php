@@ -1,9 +1,9 @@
 
-      <?php
+<?php
 $d = date("D");
 
 if ($d == "Fri") {
-	echo "Have a nice weekend!";
+	echo "Have a nice !";
 } elseif ($d == "Sun") {
 	echo "Have a nice Sunday!";
 } else {
