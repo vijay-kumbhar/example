@@ -1,36 +1,11 @@
-<?php
-$d = date("D");
+   <?php
+$a = 0;
+$b = 0;
 
-switch ($d) {
-case "Mon":
-	echo "Today is Monday";
-	break;
-
-case "Tue":
-	echo "Today is Tuesday";
-	break;
-
-case "Wed":
-	echo "Today is Wednesday";
-	break;
-
-case "Thu":
-	echo "Today is Thursday";
-	break;
-
-case "Fri":
-	echo "Today is Friday";
-	break;
-
-case "Sat":
-	echo "Today is Saturday";
-	break;
-
-case "Sun":
-	echo "Today is Sunday";
-	break;
-
-default:
-	echo "Wonder which day is this ?";
+for ($i = 0; $i < 5; $i++) {
+	$a += 10;
+	$b += 5;
 }
+
+echo ("At the end of the loop a = $a and b = $b");
 ?>
