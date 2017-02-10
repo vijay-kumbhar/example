@@ -1,11 +1,10 @@
-
 <?php
-$variable  = "name";
-$literally = 'My $variable will not print!';
+$d = date("D");
 
-print($literally);
-print"<br>";
+if ($d == "Fri") {
+	echo "Have a nice weekend!";
+} else {
+	echo "Have a nice day!";
+}
 
-$literally = "My $variable will print!";
-print($literally);
 ?>
